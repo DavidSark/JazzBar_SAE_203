@@ -19,8 +19,8 @@
           <div class="bg-white h-0.5 w-72"></div>
         </div>
 
-        <div class="text-center mt-14 mx-10">
-          <p class="text-white">Chaque soir, un programme différent !</p>
+        <div class="text-center mt-14 mx-10 ipad_pro:text-xl">
+          <p class="text-white ">Chaque soir, un programme différent !</p>
           <img class="w-screen" src="../../img/image_fond_1.png"/>
           <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
           
