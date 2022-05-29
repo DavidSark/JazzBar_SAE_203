@@ -1,8 +1,8 @@
 <template>
-  <header>
+  <header class="mb-4">
     
-      <img class="" src="../../img/logo.png">
-      <Menu class="fixed top-0 right-0">  
+      <img class="ml-5 mt-5" src="../../img/logo.png">
+      <Menu class="fixed top-5 right-0">  
         <div class="m-6 ">      
           <MenuButton >
             <MenuIcon class="h-5 w-5 fill-blue-300 stroke-white" />
@@ -18,13 +18,13 @@
           leave-from-class="transform scale-100 opacity-100"
           leave-to-class="transform scale-95 opacity-0"
         >
-          <MenuItems class="flex flex-col">
+          <MenuItems class="flex flex-col bg-black">
             <MenuItem v-slot="{ active }">
               
                 <RouterLink to="/" :class="{ 'text-white': active }" class="text-blue-600 underline"> 
-                  <div class="flex ">
+                  <div class="flex my-3">
                     <HomeIcon class="stroke-white w-6 mr-3" />
-                    <span>Accueil</span>
+                    <span class="font-roboto">Accueil</span>
                   </div>
                 </RouterLink>
               
@@ -32,33 +32,33 @@
             
             <MenuItem>
               <RouterLink to="/programme" :class="{ 'text-white': active }" class="text-blue-600 underline">
-                <div class="flex">
-                    <NewspaperIcon class="stroke-white w-6 mr-3"/>
-                     <span>Programme</span>
+                <div class="flex mb-3">
+                    <NewspaperIcon class="stroke-white w-6 mr-3 "/>
+                     <span class="font-roboto">Programme</span>
                 </div> 
               </RouterLink>
             </MenuItem>
             <MenuItem>
               <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
-                <div class="flex">
+                <div class="flex mb-3">
                     <UserGroupIcon class="stroke-white w-6 mr-3"/>
-                     <span>Artistes</span>
+                     <span class="font-roboto">Artistes</span>
                 </div> 
               </RouterLink>
             </MenuItem>
             <MenuItem>
               <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
-                <div class="flex">
+                <div class="flex mb-3">
                     <HomeIcon class="stroke-white w-6 mr-3"/>
-                     <span>Le Bar</span>
+                     <span class="font-roboto">Le Bar</span>
                 </div> 
               </RouterLink>
             </MenuItem>
             <MenuItem>
               <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
-                <div class="flex">
+                <div class="flex mb-3">
                     <MailOpenIcon class="stroke-white w-6 mr-3"/>
-                     <span>Contact</span>
+                     <span class="font-roboto">Contact</span>
                 </div>
               </RouterLink>
             </MenuItem>

@@ -18,4 +18,5 @@ import { } from "@heroicons/vue/outline";
 export default {
   components: { },
 };
+
 </script>
