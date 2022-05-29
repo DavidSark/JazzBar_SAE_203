@@ -2,9 +2,7 @@
   <header>
     
     
-    <nav>
-      <RouterLink to="/" class="text-blue-600 underline">Accueil</RouterLink>
-    </nav>
+  
   </header>
 
   <RouterView />
