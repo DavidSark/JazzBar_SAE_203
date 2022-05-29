@@ -6,6 +6,13 @@ module.exports = {
   theme: {
     extend: {
 
+      rotate: {
+        'minus2': '-2deg',
+        'minus3': '-3deg',
+        'minus4': '-4deg',
+        '0,5': '-0.5deg',
+      },
+
       width: {
 
       },
@@ -32,7 +39,7 @@ module.exports = {
         "Magenta_transparent": "#e6007e",
         "Violet_transparent": "#770096",
         "Bleu_transparent": "#2e3169",
-        "Jaune_orange transparent": "#6a4806",
+        "Jaune_orange_transparent": "#6a4806",
         "Noir_transparent": "#000000"
       },
       "fontFamily": {
