@@ -3,7 +3,7 @@
     <HeaderView></HeaderView>
     <div class="bg-[url('/img/image_accueil.png')] bg-no-repeat bg-cover w-screen h-screen text-center">
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
-      <p class="text-white font-semibold ipad_pro:text-4xl">Le Jazz bar à ne pas manquer </p>
+      <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Le Jazz bar à ne pas manquer </p>
     </div>
    
       <!-- <div class="bg-[url('/img/open.jpg')] bg-no-repeat right-0 h-64 mt-20"></div> -->
@@ -19,9 +19,9 @@
           <div class="bg-white h-0.5 w-72"></div>
         </div>
 
-        <div class="text-center mt-14 mx-10 ipad_pro:text-xl">
+        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
           <p class="text-white ">Chaque soir, un programme différent !</p>
-          <img class="w-screen" src="../../img/image_fond_1.png"/>
+          <img class="" src="../../img/image_fond_1.png"/>
           <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
           
           <RouterLink to="/programme">
@@ -34,32 +34,34 @@
         <div class="flex justify-center">
           <div class="bg-white h-0.5 w-72 mt-14"></div>
         </div>
-        
-        
-        <div class="text-center mt-14 mx-10">
-          <p class="text-white">Chaque soir, un programme différent !</p>
-          <img class="w-screen mt-10 " src="../../img/image_fond_2.png"/>
-          <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
-
+                
+        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
+          <p class="text-white">Le programme change, les artistes aussi !</p>
+          <img class="" src="../../img/image_fond_2.png"/>
+          <p class="text-white ipad_pro:mx-64">Des artistes plus incroyables les uns que les autres seront présents!
+          Découvrez qui sera là !</p>
           <RouterLink to="/artistes">
             <div class="border-2 inline-block p-4 mt-6 ">
               <p class="text-white p-1 mx-3">Découvrez les artistes</p>
             </div> 
           </RouterLink>
+        
         </div>
+
+         
 
         <div class="flex justify-center">
           <div class="bg-white h-0.5 w-72 mt-14"></div>
         </div>
 
-          <div class="text-center mt-14 mx-10">
-          <p class="text-white">Chaque soir, un programme différent !</p>
-          <img class="w-screen mt-10 " src="../../img/image_fond_3.png"/>
-          <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
+          <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
+          <p class="text-white">Une petite soif ?</p>
+          <img class="" src="../../img/image_fond_3.png"/>
+          <p class="text-white">Texte Tout au long de la soirée profitez de nos boissons et cocktails !</p>
 
-          <RouterLink to="/artistes">
+          <RouterLink to="/programme">
             <div class="border-2 inline-block p-4 mt-6 ">
-              <p class="text-white p-1 mx-3">Découvrez les artistes</p>
+              <p class="text-white p-1 mx-3">En savoir plus</p>
             </div> 
           </RouterLink>
         </div>

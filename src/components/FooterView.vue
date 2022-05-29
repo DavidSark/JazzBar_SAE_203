@@ -1,9 +1,9 @@
 <template>
-  <div class="mt-20 bg-Gris_fond_pied_de_page ">
+  <div class="mt-20 bg-Gris_fond_pied_de_page ipad_mini:text-lg">
     
-    <div class="mx-5 text-Gris pt-6">
+    <div class="mx-5 text-Gris pt-6 ">
       <h2 class="text-Gris ">Nous suivre</h2>
-      <p class="text-sm">Abonnez vous à la newsletter pour ne rien rater!</p>
+      <p class="text-sm ipad_mini:text-lg">Abonnez vous à la newsletter pour ne rien rater!</p>
       <InputView></InputView>
 
       <h2 class="mt-12">Nous contacter</h2>

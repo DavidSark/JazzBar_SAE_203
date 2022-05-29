@@ -6,6 +6,10 @@ module.exports = {
   theme: {
     extend: {
 
+      width: {
+
+      },
+
       screens: {
         'ipad_mini': '744px',
         'ipad_pro': '1024px',
