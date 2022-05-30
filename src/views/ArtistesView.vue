@@ -27,6 +27,22 @@
 
         </div>
     </div>
+
+    
+    <div class="flex justify-center mt-6">
+        <div class="bg-Magenta_transparent w-auto h-auto flex justify-between items-center">
+            <div class="w-20 h-28 ipad_pro:w-28 ipad_pro:h-36 desktop:w-36 desktop:h-44 bg-white m-4"> 
+
+            </div>
+            <div class="w-20 h-28 ipad_pro:w-28 ipad_pro:h-36 desktop:w-36 desktop:h-44 bg-white  m-4"> 
+
+            </div>
+            <div class="w-20 h-28 ipad_pro:w-28 ipad_pro:h-36 desktop:w-36 desktop:h-44 bg-white  m-4"> 
+
+            </div>  
+
+        </div>
+    </div>
      <Footer>
           <FooterView></FooterView>
     </Footer>

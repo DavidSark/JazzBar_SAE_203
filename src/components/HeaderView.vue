@@ -47,7 +47,7 @@
               </RouterLink>
             </MenuItem>
             <MenuItem>
-              <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
+              <RouterLink to="/bar" :class="{ 'text-white': active }" class="text-blue-600 underline">
                 <div class="flex mb-3">
                     <HomeIcon class="stroke-white w-6 mr-3"/>
                      <span class="font-roboto">Le Bar</span>
@@ -55,7 +55,7 @@
               </RouterLink>
             </MenuItem>
             <MenuItem>
-              <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
+              <RouterLink to="/contact" :class="{ 'text-white': active }" class="text-blue-600 underline">
                 <div class="flex mb-3">
                     <MailOpenIcon class="stroke-white w-6 mr-3"/>
                      <span class="font-roboto">Contact</span>
