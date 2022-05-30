@@ -6,7 +6,7 @@
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl uppercase">Les concerts</p>
     </div>  
     
-        <p class="text-white font-roboto text-center"> Nous contacter</p>
+        <p class="text-white font-roboto text-center ipad_mini:text-lg desktop:text-xl"> Retrouvez les concerts</p>
 
     
        <div class="mt-10 relative ">
@@ -20,7 +20,7 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <ClockIcon class="text-white w-4 mr-2"></ClockIcon>
+                        <ClockIcon class="text-white w-4 mr-2 ipad_mini:w-7 desktop:w-10"></ClockIcon>
                         <p class="text-white">Début à 19h45</p>
                     </div>
                     <div class="flex justify-center items-center">
@@ -39,7 +39,7 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <ClockIcon class="text-white w-4 mr-2"></ClockIcon>
+                        <ClockIcon class="text-white w-4 mr-2 ipad_mini:w-7 desktop:w-10"></ClockIcon>
                         <p class="text-white">Début à 21h00</p>
                     </div>
                     <div class="flex justify-center items-center">
@@ -58,7 +58,7 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <ClockIcon class="text-white w-4 mr-2"></ClockIcon>
+                        <ClockIcon class="text-white w-4 mr-2 ipad_mini:w-7 desktop:w-10"></ClockIcon>
                         <p class="text-white">Début à 19h00</p>
                     </div>
                     <div class="flex justify-center items-center">
@@ -77,7 +77,7 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <ClockIcon class="text-white w-4 mr-2"></ClockIcon>
+                        <ClockIcon class="text-white w-4 mr-2 ipad_mini:w-7 desktop:w-10"></ClockIcon>
                         <p class="text-white">Début à 19h45</p>
                     </div>
                     <div class="flex justify-center items-center">
@@ -94,7 +94,7 @@
                         </p>
                     </div>
                     <div class="flex">
-                        <ClockIcon class="text-white w-4 mr-2"></ClockIcon>
+                        <ClockIcon class="text-white w-4 mr-2 ipad_mini:w-7 desktop:w-10"></ClockIcon>
                         <p class="text-white">Début à 20h00</p>
                     </div>
                     <div class="flex justify-center items-center">

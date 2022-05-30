@@ -5,7 +5,7 @@
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Mentions Légales</p>
     </div>    
-    <p class="text-white text-center mb-6">Mentions Légales</p>
+    <p class="text-white text-center mb-6 ipad_mini:text-lg desktop:text-xl">Mentions Légales</p>
     <p class="text-white mx-10 mb-10">
       DÉNOMINATION SOCIALE
       Association pour l’événement de musique JAZZ BAR.

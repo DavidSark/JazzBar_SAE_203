@@ -6,7 +6,7 @@
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl uppercase">Nous contacter</p>
     </div>  
     
-    <p class="text-white font-roboto text-center"> Nous contacter</p>
+    <p class="text-white font-roboto text-center ipad_mini:text-lg desktop:text-xl"> Nous contacter</p>
 
     <div class="ipad_pro:flex ipad_pro:justify-center ipad_pro:items-center ipad_pro:flex-col">
         <div class=" mx-10 mt-5 flex justify-center ipad_pro:w-700 ipad_pro:items-center ">

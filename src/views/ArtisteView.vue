@@ -6,7 +6,7 @@
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Les artistes</p>
     </div>
 
-    <p class="text-center text-white">Découvrez les artistes ! </p>
+    <p class="text-center text-white ipad_mini:text-lg desktop:text-xl">Découvrez les artistes ! </p>
 
     <div class="ipad_pro:grid ipad_pro:grid-cols-2 ">
         <div class="flex justify-center mt-5 mb-10 ">
