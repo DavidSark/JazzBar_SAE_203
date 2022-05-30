@@ -10,7 +10,7 @@
 
     
        <div class="mt-10 relative ">
-        <div class="bg-Magenta_transparent w-screen mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl">
+        <div class="bg-Magenta_transparent mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl">
              <div class="flex justify-center">
                 
                 <div class="flex flex-col justify-center items-center">
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-Violet_transparent mt-6 rotate-minus3 ipad_mini:text-lg ipad_mini:rotate-minus2 w-screen mb-12 ipad_pro:text-lg desktop:text-xl">
+        <div class="bg-Violet_transparent mt-6 rotate-minus3 ipad_mini:text-lg ipad_mini:rotate-minus2 mb-12 ipad_pro:text-lg desktop:text-xl">
              <div class="flex justify-center">
                 
                 <div class="flex flex-col justify-center items-center">
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-Bleu_transparent mt-6 rotate-2 w-screen ipad_mini:text-lg ipad_mini:rotate-1 mb-12 ipad_pro:text-lg desktop:text-xl">
+        <div class="bg-Bleu_transparent mt-6 rotate-2  ipad_mini:text-lg ipad_mini:rotate-1 mb-12 ipad_pro:text-lg desktop:text-xl">
             <div class="flex justify-center">
                 
                 <div class="flex flex-col justify-center items-center">
@@ -67,7 +67,7 @@
                 </div>
             </div>
         </div>
-        <div class="bg-Jaune_orange_transparent transparent mt-6 w-screen mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl ">
+        <div class="bg-Jaune_orange_transparent transparent mt-6  mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl ">
              <div class="flex justify-center">
                 
                 <div class="flex flex-col justify-center items-center">
@@ -86,7 +86,7 @@
                 </div>
             </div>
         </div>
-         <div class="bg-Magenta_transparent mt-6 rotate-minus3 w-screen mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl">
+         <div class="bg-Magenta_transparent mt-6 rotate-minus3  mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl">
             <div class="flex flex-col justify-center items-center">
                     <div class="flex justify">
                         <p class="text-white text-center uppercase ">
