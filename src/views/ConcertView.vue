@@ -3,7 +3,7 @@
     <HeaderView></HeaderView>
     <div class="bg-[url('/img/image_accueil.png')] bg-no-repeat bg-cover h-screen text-center">
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
-      <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl uppercase">Les concerts</p>
+      <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl ">Les Concerts</p>
     </div>  
     
         <p class="text-white font-roboto text-center ipad_mini:text-lg desktop:text-xl"> Retrouvez les concerts</p>

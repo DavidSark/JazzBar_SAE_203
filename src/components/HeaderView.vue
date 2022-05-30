@@ -1,5 +1,7 @@
 <template>
-  <header class="mb-4">
+
+<MenuView></MenuView>
+<!-- <header class="mb-4">
     
       <RouterLink to="/"><img class="ml-5 mt-5" src="../../img/logo.png"></RouterLink>
       <Menu class="fixed top-5 right-0">  
@@ -86,20 +88,29 @@
                 </div>
               </RouterLink>
             </MenuItem>
+            <MenuItem>
+              <RouterLink to="/men" :class="{ 'text-white': active }" class="text-blue-600 underline">
+                <div class="flex mb-3">
+                    <MailOpenIcon class="stroke-white w-6 mr-3"/>
+                     <span class="font-roboto">menu</span>
+                </div>
+              </RouterLink>
+            </MenuItem>
           </MenuItems>
         </transition>
        
         </div>
       </Menu>
    
-  </header>
+  </header> -->
 </template>
 
 <script>
+import MenuView from "./MenuView.vue";
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
 import { MenuIcon, HomeIcon, NewspaperIcon, UserGroupIcon, MailOpenIcon } from "@heroicons/vue/outline";
 export default {
-  components: { Menu, MenuButton, MenuItems, MenuItem, MenuIcon, HomeIcon, NewspaperIcon, UserGroupIcon,  MailOpenIcon   },
+  components: {MenuView, Menu, MenuButton, MenuItems, MenuItem, MenuIcon, HomeIcon, NewspaperIcon, UserGroupIcon,  MailOpenIcon   },
 };
 
 
