@@ -78,6 +78,14 @@
                 </div>
               </RouterLink>
             </MenuItem>
+            <MenuItem>
+              <RouterLink to="/mentions" :class="{ 'text-white': active }" class="text-blue-600 underline">
+                <div class="flex mb-3">
+                    <MailOpenIcon class="stroke-white w-6 mr-3"/>
+                     <span class="font-roboto">Mentions</span>
+                </div>
+              </RouterLink>
+            </MenuItem>
           </MenuItems>
         </transition>
        

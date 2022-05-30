@@ -6,6 +6,7 @@ import BarView from '../views/BarView.vue'
 import ContactView from '../views/ContactView.vue'
 import ConcertView from '../views/ConcertView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
+import MentionsView from '../views/MentionsView.vue'
 
 
 const router = createRouter({
@@ -18,6 +19,7 @@ const router = createRouter({
     { path: '/contact', name: 'Contact', component: ContactView },
     { path: '/concert', name: 'Concert', component: ConcertView },
     { path: '/artiste', name: 'Artiste', component: ArtisteView },
+    { path: '/mentions', name: 'Mentions', component: MentionsView },
   ]
 })
 
