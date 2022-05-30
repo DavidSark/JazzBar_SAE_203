@@ -8,10 +8,10 @@
 
     <div class="text-center text-white mx-10">
         <p class=" ipad_mini:text-lg desktop:text-xl">
-            Tout au long de la semaine, retrouvez ses différents dérivés du Jazz 
+            Tout au long de la semaine, retrouvez  ses différents dérivés du Jazz 
         </p>
     </div>
-    <div class="mt-10">
+    <div class="mt-10 relative -z-1">
         <div class="bg-Magenta_transparent w-screen mb-12 ipad_mini:text-lg ipad_pro:text-lg desktop:text-xl">
             <p class="text-white text-center uppercase ">
                 Style Jazz New Orleans

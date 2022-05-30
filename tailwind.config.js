@@ -14,7 +14,7 @@ module.exports = {
       },
 
       width: {
-
+        '700': '700px'
       },
 
       screens: {
@@ -42,10 +42,9 @@ module.exports = {
         "Jaune_orange_transparent": "#6a4806",
         "Noir_transparent": "#000000"
       },
+
       "fontFamily": {
-        "fontFamily": {
-          "roboto": "Roboto"
-        },
+        "roboto": "Roboto"
       },
 
       "fontSize": {
