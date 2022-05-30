@@ -42,8 +42,16 @@
               <RouterLink to="/artistes" :class="{ 'text-white': active }" class="text-blue-600 underline">
                 <div class="flex mb-3">
                     <UserGroupIcon class="stroke-white w-6 mr-3"/>
-                     <span class="font-roboto">Artistes</span>
+                     <span class="font-roboto">Groupe</span>
                 </div> 
+              </RouterLink>
+            </MenuItem>
+            <MenuItem>
+              <RouterLink to="/artiste" :class="{ 'text-white': active }" class="text-blue-600 underline">
+                <div class="flex mb-3">
+                    <MailOpenIcon class="stroke-white w-6 mr-3"/>
+                     <span class="font-roboto">Artistes</span>
+                </div>
               </RouterLink>
             </MenuItem>
             <MenuItem>
