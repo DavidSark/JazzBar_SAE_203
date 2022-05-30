@@ -55,6 +55,14 @@
               </RouterLink>
             </MenuItem>
             <MenuItem>
+              <RouterLink to="/concert" :class="{ 'text-white': active }" class="text-blue-600 underline">
+                <div class="flex mb-3">
+                    <HomeIcon class="stroke-white w-6 mr-3"/>
+                     <span class="font-roboto">Concerts</span>
+                </div> 
+              </RouterLink>
+            </MenuItem>
+            <MenuItem>
               <RouterLink to="/contact" :class="{ 'text-white': active }" class="text-blue-600 underline">
                 <div class="flex mb-3">
                     <MailOpenIcon class="stroke-white w-6 mr-3"/>
