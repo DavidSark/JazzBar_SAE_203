@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="flex justify-center my-10">
+        <div class="flex justify-center mt-5 mb-10">
             <div class="bg-Magenta_transparent w-max h-max">
                 <img class="" src="../../img/benoit.png" >
                 <p class="text-white text-center font-roboto text-lg"> Tab Benoit</p>

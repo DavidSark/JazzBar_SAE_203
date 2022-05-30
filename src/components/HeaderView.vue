@@ -1,7 +1,7 @@
 <template>
   <header class="mb-4">
     
-      <img class="ml-5 mt-5" src="../../img/logo.png">
+      <RouterLink to="/"><img class="ml-5 mt-5" src="../../img/logo.png"></RouterLink>
       <Menu class="fixed top-5 right-0">  
         <div class="m-6 ">      
           <MenuButton >
