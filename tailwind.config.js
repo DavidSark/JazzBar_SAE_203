@@ -1,11 +1,19 @@
-module.exports = {
+const withAnimations = require('animated-tailwindcss');
+
+module.exports = withAnimations({
+
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+
+  mode: 'jit',
+
   theme: {
     extend: {
-
+      zIndex: {
+        '-1': '-1',
+      },
       rotate: {
         'minus2': '-2deg',
         'minus3': '-3deg',
@@ -70,4 +78,4 @@ module.exports = {
 
   },
   plugins: [],
-}
+});
