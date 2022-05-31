@@ -19,8 +19,8 @@
           <div class="bg-white h-0.5 w-72"></div>
         </div>
 
-        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
-          <p class="text-white ">Chaque soir, un programme différent !</p>
+        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_pro:mx-72 ipad_mini:text-lg">
+          <p class="text-white mb-10 ">Chaque soir, un programme différent !</p>
           <img class="" src="../../img/image_fond_1.png"/>
           <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
           
@@ -35,10 +35,10 @@
           <div class="bg-white h-0.5 w-72 mt-14"></div>
         </div>
                 
-        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
-          <p class="text-white">Le programme change, les artistes aussi !</p>
+        <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_pro:mx-72 ipad_mini:text-lg">
+          <p class="text-white mb-10 ">Le programme change, les artistes aussi !</p>
           <img class="" src="../../img/image_fond_2.png"/>
-          <p class="text-white ipad_pro:mx-64">Des artistes plus incroyables les uns que les autres seront présents!
+          <p class="text-white ">Des artistes plus incroyables les uns que les autres seront présents!
           Découvrez qui sera là !</p>
           <RouterLink to="/artistes">
             <div class="border-2 inline-block p-4 mt-6 ">
@@ -54,10 +54,10 @@
           <div class="bg-white h-0.5 w-72 mt-14"></div>
         </div>
 
-          <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
-          <p class="text-white">Une petite soif ?</p>
+          <div class="flex flex-col justify-center items-center text-center mt-14 mx-10  ipad_pro:mx-72 ipad_mini:text-lg">
+          <p class="text-white mb-10">Une petite soif ?</p>
           <img class="" src="../../img/image_fond_3.png"/>
-          <p class="text-white">Texte Tout au long de la soirée profitez de nos boissons et cocktails !</p>
+          <p class="text-white">Tout au long de la soirée profitez de nos boissons et cocktails !</p>
 
           <RouterLink to="/programme">
             <div class="border-2 inline-block p-4 mt-6 ">
