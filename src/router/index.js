@@ -23,7 +23,7 @@ const router = createRouter({
     { path: '/artiste', name: 'Artiste', component: ArtisteView },
     { path: '/mentions', name: 'Mentions', component: MentionsView },
     { path: '/menu', name: 'Menu', component: MenuView },
-    { path: '/erreur', name: 'Erreur', component: ErreurView },
+    { path: '/:pathMatch(.*)*', name: 'Erreur', component: ErreurView },
   ]
 })
 

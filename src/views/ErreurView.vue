@@ -15,3 +15,10 @@
 
     </div>
 </template>
+
+
+<script>
+    export default{
+        name:"Erreur"
+    }
+</script>
