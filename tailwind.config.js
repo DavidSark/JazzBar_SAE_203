@@ -21,7 +21,10 @@ module.exports = {
         'ipad_mini': '744px',
         'ipad_pro': '1024px',
         'desktop': '1440px',
+        'light': { 'raw': '(prefers-color-scheme: light)' },
+
       },
+
 
       backgroundImage: {
         'imageFond': "url('/img/image_accueil.png')",
