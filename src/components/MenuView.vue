@@ -32,7 +32,6 @@
                         </svg>
                     </button>
                 </div>
-                
             </div>
         </div>
       </div>
@@ -44,7 +43,8 @@
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/artiste">Artistes</RouterLink>
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/bar">Le Bar</RouterLink> 
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/concert">Concerts</RouterLink>
-        <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/mentions">Mentions</RouterLink> 
+        <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/mentions">Mentions</RouterLink>
+        <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/erreur">Erreur</RouterLink> 
       </div>
   </nav>
 

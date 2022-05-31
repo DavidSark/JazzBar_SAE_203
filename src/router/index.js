@@ -8,6 +8,7 @@ import ConcertView from '../views/ConcertView.vue'
 import ArtisteView from '../views/ArtisteView.vue'
 import MentionsView from '../views/MentionsView.vue'
 import MenuView from '../components/MenuView.vue'
+import ErreurView from '../views/ErreurView.vue'
 
 
 const router = createRouter({
@@ -22,6 +23,7 @@ const router = createRouter({
     { path: '/artiste', name: 'Artiste', component: ArtisteView },
     { path: '/mentions', name: 'Mentions', component: MentionsView },
     { path: '/menu', name: 'Menu', component: MenuView },
+    { path: '/erreur', name: 'Erreur', component: ErreurView },
   ]
 })
 
