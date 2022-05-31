@@ -1,7 +1,7 @@
 <template>
  
     <HeaderView></HeaderView>
-    <div class="bg-[url('/img/image_accueil.png')] bg-no-repeat bg-cover w- h-screen text-center">
+    <div class="bg-[url('/image_accueil.png')] bg-no-repeat bg-cover w- h-screen text-center">
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Le Bar</p>
     </div>  
@@ -16,7 +16,7 @@
 
         <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_mini:text-lg">
           <p class="text-white ">Perdu ?</p>
-          <img class="" src="../../img/carte.jpg"/>
+          <img class="" src="/carte.jpg"/>
           <p class="text-white">Pas de panique ! Retrouvez votre chemin grace à la carte ci-dessous !</p>
           
          

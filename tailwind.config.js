@@ -27,8 +27,8 @@ module.exports = {
 
 
       backgroundImage: {
-        'imageFond': "url('/img/image_accueil.png')",
-        'imageOpen': "url('/img/open.jpg')"
+        'imageFond': "url('/image_accueil.png')",
+        'imageOpen': "url('/open.jpg')"
       },
 
       "colors": {

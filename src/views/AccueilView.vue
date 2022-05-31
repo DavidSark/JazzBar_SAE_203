@@ -1,7 +1,7 @@
 <template>
   <main>
     <HeaderView></HeaderView>
-    <div class="bg-[url('/img/image_accueil.png')] bg-no-repeat bg-cover  h-screen text-center">
+    <div class="bg-[url('image_accueil.png')] bg-no-repeat bg-cover  h-screen text-center">
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Le Jazz bar à ne pas manquer </p>
     </div>
@@ -21,7 +21,7 @@
 
         <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_pro:mx-72 ipad_mini:text-lg">
           <p class="text-white mb-10 ">Chaque soir, un programme différent !</p>
-          <img class="" src="../../img/image_fond_1.png"/>
+          <img class="" src="/image_fond_1.png"/>
           <p class="text-white">Du Ragtime à la Soul-Jazz en passant par le Jazz-Rock, retrouvez toutes les variantes du Jazz </p>
           
           <RouterLink to="/programme">
@@ -37,7 +37,7 @@
                 
         <div class="flex flex-col justify-center items-center text-center mt-14 mx-10 ipad_pro:mx-72 ipad_mini:text-lg">
           <p class="text-white mb-10 ">Le programme change, les artistes aussi !</p>
-          <img class="" src="../../img/image_fond_2.png"/>
+          <img class="" src="/image_fond_2.png"/>
           <p class="text-white ">Des artistes plus incroyables les uns que les autres seront présents!
           Découvrez qui sera là !</p>
           <RouterLink to="/artistes">
@@ -56,7 +56,7 @@
 
           <div class="flex flex-col justify-center items-center text-center mt-14 mx-10  ipad_pro:mx-72 ipad_mini:text-lg">
           <p class="text-white mb-10">Une petite soif ?</p>
-          <img class="" src="../../img/image_fond_3.png"/>
+          <img class="" src="/image_fond_3.png"/>
           <p class="text-white">Tout au long de la soirée profitez de nos boissons et cocktails !</p>
 
           <RouterLink to="/programme">

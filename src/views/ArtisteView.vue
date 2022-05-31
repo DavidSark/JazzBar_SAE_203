@@ -1,7 +1,7 @@
 <template>
     <HeaderView></HeaderView>
 
-    <div class="bg-[url('/img/image_accueil.png')] bg-no-repeat bg-cover h-screen text-center">
+    <div class="bg-[url('/image_accueil.png')] bg-no-repeat bg-cover h-screen text-center">
       <h1 class="text-white pt-12 text-xl ipad_pro:text-5xl ipad_pro:mb-10"><span class="font-bold">JAZZ </span>BAR</h1>
       <p class="text-white font-semibold ipad_mini:text-lg  ipad_pro:text-4xl">Les Artistes</p>
     </div>
@@ -11,14 +11,14 @@
     <div class="ipad_pro:grid ipad_pro:grid-cols-2 ">
         <div class="flex justify-center mt-5 mb-10 ">
             <div class="bg-Magenta_transparent w-max h-max">
-                <img class="" src="../../img/benoit.png" >
+                <img class="" src="/benoit.png" >
                 <p class="text-white text-center font-roboto text-lg"> Tab Benoit</p>
             </div>
         </div>
 
         <div class="flex justify-center mt-5 mb-10">
             <div class="bg-Magenta_transparent w-max h-max">
-                <img class="" src="../../img/benoit.png" >
+                <img class="" src="/benoit.png" >
                 <p class="text-white text-center font-roboto text-lg"> Tab Benoit</p>
             </div>
         </div>

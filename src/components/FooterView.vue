@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="flex justify-center">
-      <img class="bg-right " src="../../img/flammant.png" />
+      <img class="bg-right " src="/flammant.png" />
     </div>
     <div class="text-white text-center">
       <p>Jazz Bar © 2022 | Tous droits réservés</p>

@@ -8,7 +8,7 @@
                 <div class="flex space-x-4">
                     <!-- Logo -->
                     <div class="flex items-center py-5 px-2">
-                        <RouterLink to="/"><img src="../../img/logo.png"></RouterLink>
+                        <RouterLink to="/"><img src="/logo.png"></RouterLink>
                     </div>
                     <!-- Menu -->
                     <div class="hidden text-white ipad_pro:flex items-center space-x-1">
@@ -16,6 +16,7 @@
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/programme">Programme</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/artistes">Groupe</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/artiste">Artistes</RouterLink>
+                        <RouterLink class="py-5 px-2 hover:text-Gris" to="/contact">Contact</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/mentions">Mentions</RouterLink>  
                     </div>
                 </div>
@@ -43,6 +44,7 @@
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/artiste">Artistes</RouterLink>
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/bar">Le Bar</RouterLink> 
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/concert">Concerts</RouterLink>
+        <RouterLink class="block py-2 px-4 hover:text-Gris" to="/contact">Contact</RouterLink>
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/mentions">Mentions</RouterLink>
         <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/erreur">Erreur</RouterLink> 
       </div>
