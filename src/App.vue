@@ -6,9 +6,7 @@
   <RouterView />
 </template>
 
-<script>
-export default {
-  components: { },
-};
 
+<script type="module">
+ 
 </script>
