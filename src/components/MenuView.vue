@@ -58,6 +58,7 @@
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/concert">Concerts</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris" to="/contact">Contact</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/mentions">Mentions</RouterLink>
+              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/pagetest">Page test</RouterLink>
           </div>
         </div>
         </div>

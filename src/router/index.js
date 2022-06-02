@@ -9,6 +9,7 @@ import ArtisteView from '../views/ArtisteView.vue'
 import MentionsView from '../views/MentionsView.vue'
 import MenuView from '../components/MenuView.vue'
 import ErreurView from '../views/ErreurView.vue'
+import PageTestView from '../views/PageTest.vue'
 
 
 const router = createRouter({
@@ -24,6 +25,8 @@ const router = createRouter({
     { path: '/mentions', name: 'Mentions', component: MentionsView },
     { path: '/menu', name: 'Menu', component: MenuView },
     { path: '/:pathMatch(.*)*', name: 'Erreur', component: ErreurView },
+    { path: '/pagetest', name: 'pagetest', component: PageTestView },
+
   ]
 })
 
