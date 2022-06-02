@@ -53,8 +53,6 @@
 import HeaderView from '../components/HeaderView.vue'
 import FooterView from '../components/FooterView.vue'
 
-
-
 /* Import d'heroicons si besoin*/
 import { MenuIcon } from "@heroicons/vue/outline";
 

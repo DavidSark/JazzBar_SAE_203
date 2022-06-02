@@ -10,9 +10,7 @@
         <div class="text-center text-white mx-10">
             <h5 class="ipad_mini:text-lg desktop:text-xl">Retrouvez la liste de tous les Artistes !</h5>
         </div>    
-        <hr/>
-
-
+      
         <form class="">
           <h6></h6>
           <div class="m">
@@ -27,7 +25,7 @@
            <span class="">
                             <div class="flex flex-col justify-center items-center" >
                                 <div class="mt-3">
-                                  <span class="ipad_mini:text-lg desktop:text-xl text-white my-3" >Filtré les Artistes</span>
+                                  <span class="ipad_mini:text-lg desktop:text-xl text-white my-3" >Filtrez les Artistes</span>
                                 </div>
                                 <input type="text" class="form-control" v-model="filter" />
                                 <button class="btn btn-light" type="button" title="Filtrage">
@@ -133,6 +131,7 @@ export default {
    mounted(){ 
             this.getArtisteSynchro();
         },
+        
   methods:{
     async getArtisteSynchro(){
                 // Obtenir Firestore
