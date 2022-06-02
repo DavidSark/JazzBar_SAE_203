@@ -69,6 +69,8 @@
 </template>
 
 <script>
+import HeaderView from '../components/HeaderView.vue'
+import FooterView from '../components/FooterView.vue'
 import { 
     getFirestore, 
     collection, 
@@ -80,6 +82,10 @@ import {
     onSnapshot } from 'https://www.gstatic.com/firebasejs/9.7.0/firebase-firestore.js'
 
 export default {
+     components: {
+    HeaderView,
+    FooterView,
+     },
   name:'ListeView',
   data() {
     return {
