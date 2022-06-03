@@ -13,6 +13,8 @@ import ListeView from '../views/Artistes/ListeView.vue'
 import CreateView from '../views/Artistes/CreateView.vue'
 import UpdateParticipant from '../views/Artistes/UpdateParticipant.vue'
 import DeleteParticipant from '../views/Artistes/DeleteParticipant.vue'
+import StyleGuideView from '../views/StyleGuideView.vue'
+
 
 
 const router = createRouter({
@@ -32,6 +34,10 @@ const router = createRouter({
     { path: '/create', name: 'Création', component: CreateView },
     { path: '/updateParticipant/:id', name: 'UpdateParticipant', component: UpdateParticipant },
     { path: '/deleteParticipant/:id', name: 'DeleteParticipant', component: DeleteParticipant },
+    { path: '/style-guide', name: 'StyleGuide', component: StyleGuideView },
+
+
+
 
 
   ]
