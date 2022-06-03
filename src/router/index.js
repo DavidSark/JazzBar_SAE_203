@@ -9,7 +9,10 @@ import ArtisteView from '../views/ArtisteView.vue'
 import MentionsView from '../views/MentionsView.vue'
 import MenuView from '../components/MenuView.vue'
 import ErreurView from '../views/ErreurView.vue'
-import PageTestView from '../views/PageTest.vue'
+import ListeView from '../views/Artistes/ListeView.vue'
+import CreateView from '../views/Artistes/CreateView.vue'
+import UpdateParticipant from '../views/Artistes/UpdateParticipant.vue'
+import DeleteParticipant from '../views/Artistes/DeleteParticipant.vue'
 
 
 const router = createRouter({
@@ -25,7 +28,11 @@ const router = createRouter({
     { path: '/mentions', name: 'Mentions', component: MentionsView },
     { path: '/menu', name: 'Menu', component: MenuView },
     { path: '/:pathMatch(.*)*', name: 'Erreur', component: ErreurView },
-    { path: '/pagetest', name: 'pagetest', component: PageTestView },
+    { path: '/listeview', name: 'Liste', component: ListeView },
+    { path: '/create', name: 'Création', component: CreateView },
+    { path: '/updateParticipant/:id', name: 'UpdateParticipant', component: UpdateParticipant },
+    { path: '/deleteParticipant/:id', name: 'DeleteParticipant', component: DeleteParticipant },
+
 
   ]
 })

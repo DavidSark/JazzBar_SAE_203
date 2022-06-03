@@ -14,8 +14,8 @@
                     <div class="hidden text-white ipad_pro:flex items-center space-x-1">
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/">Accueil</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/programme">Programme</RouterLink>
-                        <RouterLink class="py-5 px-2 hover:text-Gris" to="/artistes">Groupe</RouterLink>
-                        <RouterLink class="py-5 px-2 hover:text-Gris" to="/artiste">Artistes</RouterLink>
+                        <RouterLink class="py-5 px-2 hover:text-Gris" to="/artistes">Groupes</RouterLink>
+                        <RouterLink class="py-5 px-2 hover:text-Gris" to="/listeview">Artistes</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/contact">Contact</RouterLink>
                         <RouterLink class="py-5 px-2 hover:text-Gris" to="/mentions">Mentions</RouterLink>  
                     </div>
@@ -52,13 +52,13 @@
              <div class="flex flex-col justify-center items-center ">
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/">Accueil</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/programme">Programme</RouterLink>
-              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/artistes">Groupe</RouterLink>
-              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/artiste">Artistes</RouterLink>
+              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/artistes">Groupes</RouterLink>
+              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/listeview">Artistes</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/bar">Le Bar</RouterLink> 
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/concert">Concerts</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris" to="/contact">Contact</RouterLink>
               <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/mentions">Mentions</RouterLink>
-              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/pagetest">Page test</RouterLink>
+              <RouterLink class="block py-2 px-4 hover:text-Gris bg-black " to="/listeview">Liste</RouterLink>
           </div>
         </div>
         </div>
